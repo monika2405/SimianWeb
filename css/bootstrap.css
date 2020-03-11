@@ -3715,10 +3715,8 @@ tbody.collapse.in {
 
 .navbar-brand {
   float: left;
-  padding: 17.5px 15px;
   font-size: 18px;
   line-height: 20px;
-  height: 55px;
 }
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;

@@ -223,20 +223,20 @@
 			animation: "slide",
 
 			easing: "swing",
-			direction: "vertical",
+			direction: "horizontal",
 
 			slideshowSpeed: 5000,
 			directionNav: true,
 			start: function(){
 				setTimeout(function(){
-					$('.slider-text').removeClass('animated fadeInUp');
-					$('.flex-active-slide').find('.slider-text').addClass('animated fadeInUp');
+					$('.slider-text').removeClass('animated fadeInLeft');
+					$('.flex-active-slide').find('.slider-text').addClass('animated fadeInLeft');
 				}, 500);
 			},
 			before: function(){
 				setTimeout(function(){
-					$('.slider-text').removeClass('animated fadeInUp');
-					$('.flex-active-slide').find('.slider-text').addClass('animated fadeInUp');
+					$('.slider-text').removeClass('animated fadeInLeft');
+					$('.flex-active-slide').find('.slider-text').addClass('animated fadeInLeft');
 				}, 500);
 			}
 
@@ -278,9 +278,9 @@
 
 	
 	$(function(){
-		mobileMenuOutsideClick();
-		offcanvasMenu();
-		burgerMenu();
+		// mobileMenuOutsideClick();
+		// offcanvasMenu();
+		// burgerMenu();
 		contentWayPoint();
 		dropdown();
 		goToTop();
